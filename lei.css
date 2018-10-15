@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    width: 1300px;
+    height: 600px;
+    border: 1px solid #000;
+    background-color: aquamarine;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.level {
+    position: relative;
+    left: 50%;
+    top: 20px;
+    margin-left: -250px;
+    /* margin-top: -100px; */
+    width: 500px;
+    height: 50px;
+    background-color: rgb(126, 13, 79);
+    /* z-index: 20; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.level p {
+
+    width: 50px;
+    height: 30px;
+    color: rgb(201, 204, 19);
+    line-height: 30px;
+    border: 1px solid rgb(16, 119, 56);
+    border-radius: 5px;
+    background-color: rgb(113, 111, 116);
+    cursor: pointer;
+}
+
+/* [data="rookie"] {
+    top: 10px;
+}
+
+[data="master"] {
+    top: 60px;
+}
+
+[data="god"] {
+    top: 110px;
+} */
+
+.level button {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+
+
+.plat {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    margin-left: -500px;
+    /* margin-top: -250px; */
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.plat ul {
+    position: absolute;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.above {
+    z-index: 10;
+}
+
+.plat ul li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    line-height: 15px;
+    margin-top: -1px;
+    margin-left: -1px;
+    text-align: center;
+}
+
+.blow li {
+    background-color: rgb(253, 251, 251);
+}
+
+.above li {
+    background-color: rgba(206, 198, 198, 1);
+}
+
+.above .transparent {
+    background-color: transparent;
+}
+
+.blow .lei {
+    background-image: url("lei.jpg");
+    background-size: 100% 100%;
+}
+
+.time-residue {
+    position: absolute;
+    left: 500px;
+    top: 540px;
+    border: 1px solid #000;
+    line-height: 50px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}
+
+.time-residue span {
+    color: rgb(218, 15, 15);
+    background-color: #000;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+/* .replay {
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+} */
+
+.level .active {
+    background-color: rgb(236, 13, 13);
+}
+
+.littleflag {
+    background: url("qi.jpg");
+    background-size: 100% 100%;
+}
+
+.tips{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+    width: 200px;
+    height: 200px;
+    z-index: 20;
+    display: none;
+    background: gray;
+    text-align: center;
+    /* line-height: 200px; */
+}
+.tips p{
+    margin-top: 20px;
+}
+ .tips span{
+     margin-left: 50px;
+ }
